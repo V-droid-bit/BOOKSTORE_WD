@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="reg-body">
+    <div class="reg-container">
+        <div class="reg-header">
+            <h2>REGISTER</h2>
+            <p>Create a new account</p>
+        </div>
+        <form name="f2" method="post" action="home.html">
+            <table align="center">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="pwd" required></td>
+                </tr>
+                <tr>
+                    <td>E-mail ID:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="text" name="phone" required></td>
+                </tr>
+                <tr>
+                    <td>Sex:</td>
+                    <td>
+                        <input type="radio" name="sex" value="Male"> Male
+                        <input type="radio" name="sex" value="Female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <select name="day">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                        </select>
+                        <select name="month">
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                        </select>
+                        <select name="year">
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Languages Known:</td>
+                    <td>
+                        <input type="checkbox" name="lang" value="English"> English
+                        <input type="checkbox" name="lang" value="Telugu"> Telugu<br>
+                        <input type="checkbox" name="lang" value="Hindi"> Hindi
+                        <input type="checkbox" name="lang" value="Tamil"> Tamil
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" rows="3" cols="22"></textarea></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" style="padding-top: 15px;">
+                        <button type="submit" class="btn-submit">Register</button>
+                        <button type="reset" class="btn-reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
