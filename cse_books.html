@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="catalogue-body">
+    <header class="catalogue-heading">
+        <h2>Book Catalogue</h2>
+        <p>Find the right books for your engineering journey.</p>
+    </header>
+
+    <div class="catalogue-table-wrap">
+    <table class="catalogue-table department-catalogue">
+        <tr>
+            <th>Cover</th>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>Price</th>
+            <th style="text-align: center;">Action</th>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-algorithms" role="img" aria-label="Introduction to Algorithms cover"><span>INTRODUCTION TO ALGORITHMS</span><small>Computer Science</small></div></td>
+            <td>Introduction to Algorithms</td>
+            <td>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</td>
+            <td>MIT Press</td>
+            <td class="catalogue-price">$75.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="intro-algorithms" data-name="Introduction to Algorithms" data-price="75">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-operating-systems" role="img" aria-label="Operating System Concepts cover"><span>OPERATING SYSTEM CONCEPTS</span><small>Systems and Software</small></div></td>
+            <td>Operating System Concepts</td>
+            <td>Abraham Silberschatz, Peter B. Galvin, Greg Gagne</td>
+            <td>Wiley</td>
+            <td class="catalogue-price">$68.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="operating-system-concepts" data-name="Operating System Concepts" data-price="68">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-ai" role="img" aria-label="Artificial Intelligence: A Modern Approach cover"><span>ARTIFICIAL INTELLIGENCE</span><small>A Modern Approach</small></div></td>
+            <td>Artificial Intelligence: A Modern Approach</td>
+            <td>Stuart Russell, Peter Norvig</td>
+            <td>Pearson</td>
+            <td class="catalogue-price">$72.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="ai-modern-approach" data-name="Artificial Intelligence: A Modern Approach" data-price="72">Add to cart</button></td>
+        </tr>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

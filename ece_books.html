@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECE Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="catalogue-body">
+    <header class="catalogue-heading">
+        <h2>Book Catalogue</h2>
+        <p>Explore electronics and communication engineering books.</p>
+    </header>
+
+    <div class="catalogue-table-wrap">
+    <table class="catalogue-table department-catalogue">
+        <tr>
+            <th>Cover</th>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>Price</th>
+            <th style="text-align: center;">Action</th>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-electronics" role="img" aria-label="Microelectronic Circuits cover"><span>MICROELECTRONIC CIRCUITS</span><small>Electronics</small></div></td>
+            <td>Microelectronic Circuits</td>
+            <td>Adel S. Sedra, Kenneth C. Smith</td>
+            <td>Oxford University Press</td>
+            <td class="catalogue-price">$72.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="microelectronic-circuits" data-name="Microelectronic Circuits" data-price="72">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-signals" role="img" aria-label="Signals and Systems cover"><span>SIGNALS AND SYSTEMS</span><small>Communication</small></div></td>
+            <td>Signals and Systems</td>
+            <td>Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab</td>
+            <td>Pearson</td>
+            <td class="catalogue-price">$65.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="signals-systems" data-name="Signals and Systems" data-price="65">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-digital" role="img" aria-label="Digital Design cover"><span>DIGITAL DESIGN</span><small>Logic and Systems</small></div></td>
+            <td>Digital Design</td>
+            <td>M. Morris Mano, Michael D. Ciletti</td>
+            <td>Pearson</td>
+            <td class="catalogue-price">$59.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="digital-design" data-name="Digital Design" data-price="59">Add to cart</button></td>
+        </tr>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

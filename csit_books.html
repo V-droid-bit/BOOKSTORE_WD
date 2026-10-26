@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSIT Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="catalogue-body">
+    <header class="catalogue-heading">
+        <h2>Book Catalogue</h2>
+        <p>Explore software, web, and networking books.</p>
+    </header>
+
+    <div class="catalogue-table-wrap">
+    <table class="catalogue-table department-catalogue">
+        <tr>
+            <th>Cover</th>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>Price</th>
+            <th style="text-align: center;">Action</th>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-programming" role="img" aria-label="Java: The Complete Reference cover"><span>JAVA: THE COMPLETE REFERENCE</span><small>Programming</small></div></td>
+            <td>Java: The Complete Reference</td>
+            <td>Herbert Schildt</td>
+            <td>McGraw Hill</td>
+            <td class="catalogue-price">$55.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="java-complete-reference" data-name="Java: The Complete Reference" data-price="55">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-markup" role="img" aria-label="XML Bible cover"><span>XML BIBLE</span><small>Web Technology</small></div></td>
+            <td>XML Bible</td>
+            <td>Elliotte Rusty Harold</td>
+            <td>Wiley</td>
+            <td class="catalogue-price">$40.50</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="xml-bible" data-name="XML Bible" data-price="40.50">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-networking" role="img" aria-label="Computer Networking: A Top-Down Approach cover"><span>COMPUTER NETWORKING</span><small>A Top-Down Approach</small></div></td>
+            <td>Computer Networking: A Top-Down Approach</td>
+            <td>James Kurose, Keith Ross</td>
+            <td>Pearson</td>
+            <td class="catalogue-price">$66.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="computer-networking-top-down" data-name="Computer Networking: A Top-Down Approach" data-price="66">Add to cart</button></td>
+        </tr>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

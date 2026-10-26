@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Engineering Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="catalogue-body">
+    <header class="catalogue-heading">
+        <h2>Book Catalogue</h2>
+        <p>Explore structural, surveying, and geotechnical engineering books.</p>
+    </header>
+
+    <div class="catalogue-table-wrap">
+    <table class="catalogue-table department-catalogue">
+        <tr>
+            <th>Cover</th>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>Price</th>
+            <th style="text-align: center;">Action</th>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-structures" role="img" aria-label="Structural Analysis cover"><span>STRUCTURAL ANALYSIS</span><small>Engineering</small></div></td>
+            <td>Structural Analysis</td>
+            <td>Russell C. Hibbeler</td>
+            <td>Pearson</td>
+            <td class="catalogue-price">$70.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="structural-analysis" data-name="Structural Analysis" data-price="70">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-surveying" role="img" aria-label="Surveying: Principles and Applications cover"><span>SURVEYING</span><small>Principles and Applications</small></div></td>
+            <td>Surveying: Principles and Applications</td>
+            <td>Barry F. Kavanagh, S. J. Glenn Bird</td>
+            <td>Pearson</td>
+            <td class="catalogue-price">$58.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="surveying-principles-applications" data-name="Surveying: Principles and Applications" data-price="58">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td><div class="book-cover cover-soils" role="img" aria-label="Soil Mechanics and Foundations cover"><span>SOIL MECHANICS</span><small>And Foundations</small></div></td>
+            <td>Soil Mechanics and Foundations</td>
+            <td>Muni Budhu</td>
+            <td>Wiley</td>
+            <td class="catalogue-price">$64.00</td>
+            <td style="text-align: center;"><button class="add-cart-btn" type="button" data-add-to-cart data-id="soil-mechanics-foundations" data-name="Soil Mechanics and Foundations" data-price="64">Add to cart</button></td>
+        </tr>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
